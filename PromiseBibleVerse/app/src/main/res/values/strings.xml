@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Promise Bible Verse</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_verses">Verses</string>
+    <string name="ins">Pick any one of the icons below to get a Bible Verse</string>
+    <string name="title_activity_verse1">Verse1</string>
+    <string name="song">Click the Verse to get your song</string>
+    <string name="title_activity_verse2">Verse2</string>
+    <string name="title_activity_verse3">Verse3</string>
+    <string name="title_activity_verse4">Verse4</string>
+    <string name="title_activity_godbless">Godbless</string>
+    <string name="title_activity_verse5">Verse5</string>
+    <string name="title_activity_verse6">Verse6</string>
+    <string name="title_activity_verse7">Verse7</string>
+    <string name="title_activity_verse8">Verse8</string>
+    <string name="title_activity_verse9">Verse9</string>
+    <string name="title_activity_verse10">Verse10</string>
+    <string name="title_activity_verse11">Verse11</string>
+    <string name="title_activity_verse12">Verse12</string>
+    <string name="title_activity_verse13">Verse13</string>
+    <string name="title_activity_verse14">Verse14</string>
+    <string name="title_activity_verse15">Verse15</string>
+    <string name="title_activity_verse16">Verse16</string>
+    <string name="title_activity_verse17">Verse17</string>
+    <string name="title_activity_verse18">Verse18</string>
+    <string name="title_activity_verse19">Verse19</string>
+    <string name="title_activity_verse20">Verse20</string>
+</resources>

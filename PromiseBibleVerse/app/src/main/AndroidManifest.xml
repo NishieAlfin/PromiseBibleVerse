@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.alfinish.alfinsamuel.promisebibleverse">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/appicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/appicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:hardwareAccelerated="false">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Verses" />
+        <activity android:name=".Verse1" />
+        <activity android:name=".Godbless" />
+        <activity android:name=".Verse2" />
+        <activity android:name=".Verse3" />
+        <activity android:name=".verse4" />
+        <activity android:name=".Verse5" />
+        <activity android:name=".Verse6" />
+        <activity android:name=".Verse7" />
+        <activity android:name=".Verse8" />
+        <activity android:name=".Verse9" />
+        <activity android:name=".Verse10" />
+        <activity android:name=".Verse11" />
+        <activity android:name=".Verse12" />
+        <activity android:name=".Verse13" />
+        <activity android:name=".Verse14" />
+        <activity android:name=".Verse15" />
+        <activity android:name=".Verse16" />
+        <activity android:name=".Verse17" />
+        <activity android:name=".Verse18" />
+        <activity android:name=".Verse19" />
+        <activity android:name=".Verse20"></activity>
+    </application>
+
+</manifest>

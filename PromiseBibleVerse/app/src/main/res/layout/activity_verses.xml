@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alfinish.alfinsamuel.promisebibleverse.Verses">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@mipmap/imagesyhj" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/button1"
+            android:layout_toRightOf="@+id/button1"
+            android:fontFamily="Comic Sans"
+            android:text="@string/ins"
+            android:textColor="#ff00ff"
+            android:textSize="20sp" />
+
+        <GridLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/button1"
+            android:layout_marginTop="20dp"
+            android:columnCount="4"
+            android:rowCount="24">
+
+            <Space
+                android:layout_height="14sp"
+                android:layout_column="0"
+                android:layout_columnSpan="4"
+                android:layout_gravity="fill"
+                android:layout_row="4" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="0sp"
+                android:layout_height="60sp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill_horizontal"
+                android:background="@mipmap/gift1"
+                android:gravity="center"
+                android:onClick="verse1" />
+
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="0sp"
+                android:layout_height="60sp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill_horizontal"
+
+                android:background="@mipmap/defsd"
+                android:gravity="center"
+                android:onClick="verse2" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="0sp"
+                android:layout_height="60sp"
+
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill_horizontal"
+
+                android:background="@mipmap/flo4"
+                android:gravity="center"
+                android:onClick="verse3" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="0sp"
+                android:layout_height="60sp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill_horizontal"
+
+                android:background="@mipmap/star1"
+                android:gravity="center"
+                android:onClick="verse4" />
+            <Space
+                android:layout_height="14sp"
+                android:layout_column="0"
+                android:layout_columnSpan="4"
+                android:layout_gravity="fill"
+                android:layout_row="8" />
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="0sp"
+                android:layout_height="60sp"
+
+                android:layout_gravity="fill_horizontal"
+                android:background="@mipmap/redball1"
+                android:gravity="center"
+                android:onClick="verse5" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="0sp"
+                android:layout_height="60sp"
+
+                android:layout_gravity="fill_horizontal"
+
+                android:background="@mipmap/butterfly1"
+                android:gravity="center"
+                android:onClick="verse6" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="0sp"
+                android:layout_height="60sp"
+
+                android:layout_gravity="fill_horizontal"
+
+                android:background="@mipmap/pinkrose"
+                android:gravity="center"
+                android:onClick="verse7" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="0sp"
+                android:layout_height="60sp"
+                android:layout_gravity="fill_horizontal"
+
+                android:background="@mipmap/redstar1"
+                android:gravity="center"
+                android:onClick="verse8" />
+            <Space
+                android:layout_height="14sp"
+                android:layout_column="0"
+                android:layout_columnSpan="4"
+                android:layout_gravity="fill"
+                android:layout_row="12" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="0sp"
+                android:layout_height="60sp"
+                android:layout_gravity="fill_horizontal"
+                android:background="@mipmap/christmastree"
+                android:gravity="center"
+                android:onClick="verse9" />
+
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="0sp"
+                android:layout_height="60sp"
+                android:layout_gravity="fill_horizontal"
+                android:background="@mipmap/twitbird"
+                android:gravity="center"
+                android:onClick="verse10" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="0sp"
+                android:layout_height="60sp"
+                android:layout_gravity="fill_horizontal"
+                android:background="@mipmap/pinkflo1"
+                android:gravity="center"
+                android:onClick="verse11" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="0sp"
+                android:layout_height="60sp"
+                android:layout_gravity="fill_horizontal"
+                android:background="@mipmap/goldstar"
+                android:gravity="center"
+                android:onClick="verse12" />
+
+            <Space
+                android:layout_height="14sp"
+                android:layout_column="0"
+                android:layout_columnSpan="4"
+                android:layout_gravity="fill"
+                android:layout_row="16" />
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="0sp"
+                android:layout_height="60sp"
+                android:layout_gravity="fill_horizontal"
+                android:background="@mipmap/reathicon"
+                android:gravity="center"
+                android:onClick="verse13" />
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="0sp"
+                android:layout_height="60sp"
+                android:layout_gravity="fill_horizontal"
+                android:background="@mipmap/butterfly2"
+                android:gravity="center"
+                android:onClick="verse14" />
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="0sp"
+                android:layout_height="60sp"
+                android:layout_gravity="fill_horizontal"
+                android:background="@mipmap/pinkflowerhi"
+                android:gravity="center"
+                android:onClick="verse15" />
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="0sp"
+                android:layout_height="60sp"
+                android:layout_gravity="fill_horizontal"
+                android:background="@mipmap/star"
+                android:gravity="center"
+                android:onClick="verse16" />
+
+            <Space
+                android:layout_height="14sp"
+                android:layout_column="0"
+                android:layout_columnSpan="4"
+                android:layout_gravity="fill"
+                android:layout_row="20" />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="0sp"
+                android:layout_height="60sp"
+                android:layout_gravity="fill_horizontal"
+                android:background="@mipmap/summerflowers"
+                android:gravity="center"
+                android:onClick="verse17" />
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="0sp"
+                android:layout_height="60sp"
+                android:layout_gravity="fill_horizontal"
+                android:background="@mipmap/singlebird"
+                android:gravity="center"
+                android:onClick="verse18" />
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="0sp"
+                android:layout_height="60sp"
+                android:layout_gravity="fill_horizontal"
+                android:background="@mipmap/flo2"
+                android:gravity="center"
+                android:onClick="verse19" />
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="0sp"
+                android:layout_height="60sp"
+                android:layout_gravity="fill_horizontal"
+                android:background="@mipmap/pinkstar"
+                android:gravity="center"
+                android:onClick="verse20" />
+        </GridLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
